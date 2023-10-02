@@ -1,1 +1,88 @@
+html, body {
+    background-color: #e5e9ec;
+    color: #4e5e6a;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px; 
+    -webkit-font-smoothing: antialiased;
+    height:100%;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4{
+    font-weight: normal;   
+}
+h1,h2, h3 {
+    margin-top: 10px;
+}
+h5{
+    font-weight: bold;  
+}
+blockquote{
+    background: rgba(242, 242, 242, 0.42);
+    font-size: 100%; 
+    margin: 0;
+}
+pre{
+    border:none;
+    border-radius: 0;
+    margin: 0;
+}
 
+.invisible{
+    visibility: hidden;
+}
+.navbar-default {
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05), 0 1px 0 rgba(0,0,0,0.05);
+    border-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#4e5e6a;
+}
+.navbar-brand {
+    padding: 5px 15px;
+    width: 190px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.navbar-toggle{
+    color: #1d2632;
+    border: none;
+    padding:8px 13px;
+    margin-right: 10px;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+    background-color: #f2f4f6 !important;
+}
+.navbar-nav>.open>a,
+.navbar-nav>.open>a:hover,
+.navbar-nav>.open>a:focus{
+    background-color: #f2f4f6 !important;
+  }
+.signin-box{
+    max-width: 450px;
+    margin: 5% auto;
+}
+
+.signin-box .form-control {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.signin-box .input-group-addon{
+    padding:6px 15px;
+}
+
+a{
+    color: #29689e;
+}
+a:hover,
+a:active,
+a:focus{
+    text-decoration: none;
+}
+a:active{
+    outline: none;
+  }
